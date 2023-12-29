@@ -1,0 +1,58 @@
+body{
+    padding-block: 50px;
+   
+    background-image: url(../pexels-codioful-\(formerly-gradienta\)-7130555.jpeg);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Quicksand', sans-serif;
+}
+form{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 0.5);
+   background-color:  rgba(255, 255, 255, 0.16) !important ;
+    width: 40%;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+    
+}
+h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #828080;
+}
+.btn{
+    border: 1px solid #18A2B8 !important;
+    color: #18A2B8;
+    transition: all 0.6s;
+}
+.btn:hover{
+    color:#ffffff !important;
+    background-color: #18A2B8;
+}
+
+input::placeholder{
+    color: #828080 !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border-color: #18A2B8;
+    color: #828080;
+
+}
+
+ a:hover{
+    text-decoration: underline !important;
+    color: #828080;
+}
+p{
+    color: #828080;
+}
+ a{
+    color: #828080;
+    transition:  all 0.6s;
+}
+
+
